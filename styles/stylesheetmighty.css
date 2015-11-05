@@ -1,0 +1,104 @@
+body {
+    font-family: "helvetica", "Arial", sans-serif;
+    background-color: white; 
+    }
+
+header {
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    }
+h1 {
+    color:#0a558e;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: .4em;
+}
+
+nav{
+    background-color: #0a558e;
+    }
+nav li {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    width: 14.28%;
+    list-style-type: none;
+    background-color: #0a558e;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  
+  /*
+  
+    White separaters on this version
+    margin-right: .25%;
+    width: 14.01%;
+  
+    Correct color separators but causes it to break the page.
+    width: 13.68%;
+    border-right: .3em solid #6c509b;
+  
+  */
+  
+    }
+nav a {
+    vertical-align: middle;
+    align-content: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+ul.navlist {
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    height: 500px;
+    padding-top: 5em;
+    background-color: #2e85c8;
+    }
+
+#navlist li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+#navlist a{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+article{
+    width: 80%;
+    padding-top: 5em;
+    height: 500px;
+    float: left;
+    background-color: #e1e4e9;
+    text-align: center;
+    }
+#mycontent p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    }
+#mycontent img{
+    margin-bottom: 2em;
+    }
+footer{
+    text-align: center;
+    clear: left;
+    padding-top: 3em; 
+    background-color: white;
+    height: 100%;
+    }
+footer img {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    }
