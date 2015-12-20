@@ -8,6 +8,16 @@ header {
     width: 100%;
     align-content: center;
     }
+
+.offscreen {
+ position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow: hidden;
+}
+
 h1 {
     color:#896ebd;
     text-align: center;
